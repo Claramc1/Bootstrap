@@ -66,6 +66,7 @@ section {
 
 .xs_home {
 	background-image: url("img/featured_3.jpg");
+	background-repeat: no-repeat;
 	background-size: auto;
 	min-height: 600px;
 }
