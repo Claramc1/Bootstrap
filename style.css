@@ -48,7 +48,7 @@ ul{
 	outline:none;
 }
 
-body, {
+.body {
     font-family: 'Halant', serif;
     font-weight: 400;
 }
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Satisfy', cursive;
     font-weight: 400;
 	font-size: 72px;
-	font-color: black;
+	color: black;
 }
 
 section {
@@ -66,13 +66,14 @@ section {
 
 .xs_home {
 	background-image: url("img/featured_3.jpg");
+	background-repeat: no-repeat;
 	background-size: auto;
 	min-height: 600px;
 }
 
 
 #illustration_section {
-	background-image: url("img/pattern.jpg");
+	background-image: url("img/pattern.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 90px;
@@ -174,7 +175,6 @@ section {
 	-webkit-transition: scale(1.2);
 	transform: scale(1.2);
 }
-
 
 
 .img_fluid {
